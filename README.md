@@ -63,7 +63,7 @@
 composer require aotr/laravel-animated-icons
 ```
 
-Until the Packagist listing is live, install from GitHub:
+For the latest unreleased changes, install from GitHub:
 
 ```json
 "repositories": [
