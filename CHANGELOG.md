@@ -2,6 +2,11 @@
 
 All notable changes to `laravel-animated-icons` are documented here.
 
+## 1.0.2 — 2026-10-26
+
+- Serve the runtime JS/CSS as normal responses, fixing empty file responses on
+  some HTTP servers and test runners.
+
 ## 1.0.1 — 2026-10-26
 
 - Ship the runtime stylesheet with the package (`/vendor/animated-icons.css`)

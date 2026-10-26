@@ -4,7 +4,7 @@ namespace Aotr\AnimatedIcons;
 
 final class AnimatedIcons
 {
-    public const VERSION = '1.0.1';
+    public const VERSION = '1.0.2';
 
     /**
      * The runtime is served straight from the package, so use the file's
