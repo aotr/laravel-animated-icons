@@ -63,6 +63,18 @@
 composer require aotr/laravel-animated-icons
 ```
 
+Until the Packagist listing is live, install from GitHub:
+
+```json
+"repositories": [
+    { "type": "vcs", "url": "https://github.com/aotr/laravel-animated-icons" }
+]
+```
+
+```bash
+composer require aotr/laravel-animated-icons:^1.0
+```
+
 Publish the config (optional — the starter set works without it):
 
 ```bash
