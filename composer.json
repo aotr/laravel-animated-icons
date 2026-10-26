@@ -1,10 +1,21 @@
 {
     "name": "aotr/laravel-animated-icons",
     "description": "Plug-and-play animated SVG icons for Laravel Blade: hover, click, auto and on-view triggers, registry sync, reduced motion and Livewire-safe delegation.",
-    "keywords": ["laravel", "icons", "animated", "lucide", "blade", "svg", "micro-interactions"],
+    "keywords": ["laravel", "icons", "animated", "lucide", "blade", "svg", "micro-interactions", "livewire"],
+    "homepage": "https://github.com/aotr/laravel-animated-icons",
     "license": "MIT",
     "type": "library",
-    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Animesh Chakraborty",
+            "email": "animesh.aotr@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/aotr/laravel-animated-icons/issues",
+        "source": "https://github.com/aotr/laravel-animated-icons",
+        "docs": "https://github.com/aotr/laravel-animated-icons#readme"
+    },
     "require": {
         "php": "^8.2",
         "illuminate/console": "^11.0|^12.0|^13.0",
@@ -35,7 +46,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
