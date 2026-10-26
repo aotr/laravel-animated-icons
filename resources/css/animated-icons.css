@@ -1,0 +1,5 @@
+[data-animated-icon] > svg,
+[data-animated-icon] [data-part] {
+    transform-box: fill-box;
+    transform-origin: center;
+}

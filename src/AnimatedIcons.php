@@ -4,7 +4,7 @@ namespace Aotr\AnimatedIcons;
 
 final class AnimatedIcons
 {
-    public const VERSION = '1.0.0';
+    public const VERSION = '1.0.1';
 
     /**
      * The runtime is served straight from the package, so use the file's
@@ -13,6 +13,13 @@ final class AnimatedIcons
     public static function assetVersion(): string
     {
         $path = __DIR__.'/../resources/js/animated-icons.js';
+
+        return is_file($path) ? (string) filemtime($path) : self::VERSION;
+    }
+
+    public static function styleVersion(): string
+    {
+        $path = __DIR__.'/../resources/css/animated-icons.css';
 
         return is_file($path) ? (string) filemtime($path) : self::VERSION;
     }

@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-animated-icons` are documented here.
 
+## 1.0.1 — 2026-10-26
+
+- Ship the runtime stylesheet with the package (`/vendor/animated-icons.css`)
+  so fresh installs need no host CSS for transform origins.
+- Add the stylesheet link to the assets component.
+
 ## 1.0.0 — 2026-10-26
 
 - Initial release.

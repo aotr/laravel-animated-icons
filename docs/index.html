@@ -14,6 +14,8 @@
         .serif { font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif; }
         .ai { display: inline-flex; align-items: center; justify-content: center; }
         .ai svg { width: 2.25rem; height: 2.25rem; }
+        [data-animated-icon] > svg,
+        [data-animated-icon] [data-part] { transform-box: fill-box; transform-origin: center; }
         .hero .ai svg { width: 4rem; height: 4rem; }
         .code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
         @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

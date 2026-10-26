@@ -27,6 +27,9 @@ class AnimatedIconsServiceProvider extends ServiceProvider
         Route::get('/vendor/animated-icons.js', AnimatedIconsAssetController::class)
             ->name('animated-icons.asset');
 
+        Route::get('/vendor/animated-icons.css', [AnimatedIconsAssetController::class, 'style'])
+            ->name('animated-icons.style');
+
         $this->publishes([
             __DIR__.'/../config/animated-icons.php' => config_path('animated-icons.php'),
         ], 'animated-icons-config');

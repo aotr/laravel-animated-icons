@@ -13,4 +13,12 @@ class AnimatedIconsAssetController
             'Cache-Control' => 'public, max-age=31536000, immutable',
         ]);
     }
+
+    public function style(): BinaryFileResponse
+    {
+        return response()->file(__DIR__.'/../../../resources/css/animated-icons.css', [
+            'Content-Type' => 'text/css; charset=utf-8',
+            'Cache-Control' => 'public, max-age=31536000, immutable',
+        ]);
+    }
 }

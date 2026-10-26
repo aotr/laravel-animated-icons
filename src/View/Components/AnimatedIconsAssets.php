@@ -24,6 +24,7 @@ class AnimatedIconsAssets extends Component
         return view('animated-icons::components.assets', [
             'manifest' => $manifest,
             'asset' => route('animated-icons.asset', ['v' => AnimatedIcons::assetVersion()]),
+            'style' => route('animated-icons.style', ['v' => AnimatedIcons::styleVersion()]),
         ]);
     }
 }

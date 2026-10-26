@@ -91,7 +91,8 @@ Add the runtime once per layout, after the content:
 </body>
 ```
 
-That is the whole setup. No JS build, no asset publishing.
+That is the whole setup. The package serves both the runtime and its stylesheet —
+no JS build, no asset publishing, no extra CSS.
 
 ## Quick start
 
